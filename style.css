@@ -738,7 +738,7 @@ button:hover {
 
 #checkout-button {
     margin-top: 20px; /* Space above checkout button */
-    padding: 10px 15px; /* Padding for button */
+    padding: 25px 35px; /* Padding for button */
     border: none; /* No border */
     border-radius: 5px; /* Rounded corners */
     background-color: #f0ad4e; /* Orange background for checkout button */
