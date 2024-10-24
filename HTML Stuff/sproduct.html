@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce-store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+  <link
+    href="/your-path-to-fontawesome/css/custom-icons.css"
+    rel="stylesheet"
+  />
+  <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.png" alt="my logo" class="logo">
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="cart.html">CART (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <section id="prodetails" class="section-p1" style="background-color: rgb(247, 240, 231);">
+        <!-- iPhone 16 Pro Max -->
+        <div class="single-pro-image">
+            <img src="product1.1.jpeg" width="100%" id="MainImg" alt="">
+        </div>
+        <div class="single-pro-details">
+            <h4>iPhone 16 Pro Max</h4>
+            <h2>$1199.99</h2>
+            <select class="single" id="productColor1">
+                <option>Select Color</option>
+                <option>Grey</option>
+                <option>Blue</option>
+                <option>Silver</option>
+                <option>Pink</option>
+                <option>Black</option>
+            </select>
+            <input type="number" id="productQuantity1" value="1" min="1">
+            <button class="normal" onclick="addToCart('iPhone 16 Pro Max', 1199.99, 'productColor1', 'productQuantity1')">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>The iPhone 16 Pro Max, introduced on September 9, 2024, is Apple's latest flagship smartphone, featuring a stunning 6.9-inch OLED display with a 120Hz refresh rate, making it the largest display ever on an iPhone. This model is powered by the A18 Pro processor, ensuring high performance and efficiency. In terms of design, the iPhone 16 Pro Max boasts a sleek titanium finish and is equipped with advanced pro camera features, including a triple-camera setup that enhances photography capabilities. It also offers a larger battery, providing the longest tested battery life of any iPhone to date. With a starting storage capacity of 256GB, the iPhone 16 Pro Max is designed for users who require ample space for apps, photos, and videos. Overall, it combines cutting-edge technology with a premium design, making it a top choice for those seeking a high-end smartphone experience.</span>
+        </div>
+    </section>
+
+    <script src="script.js" defer></script>
+    
+   
+</body>
+
+    <section id="feature" class="section-p1" style="background-color: #e2dcdc;">
+        <h2 class="featured-heading">Our Featured Products</h2>
+    
+        <div class="fe-box">
+            <img src="product1.1.jpeg" alt="iPhone 16 Pro Max" class="feature-image">
+            <h4>iPhone 16 Pro Max</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$1,199.99</p>
+        </div>
+        
+        <div class="fe-box">
+            <img src="product2.1.jpeg" alt="Mac Book Air" class="feature-image">
+            <h4>Mac Book Air</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$999.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="product3.jpeg" alt="iPad Pro" class="feature-image">
+            <h4>iPad Pro</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$799.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="watch.jpeg" alt="Apple Watch" class="feature-image">
+            <h4>Apple Watch</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$399.99</p>
+        </div>
+    
+    </section>
+
+    
+ <footer class="section-p1" style="background-color: whitesmoke;">
+    <div class="col">
+        <img class="logo" src="logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 40 Penrith Road, Morning-side, Bulawayo</p>
+        <p><strong>Phone:</strong> +263 2222 765 / +(26) 76 2349 0967</p>
+        <p><strong>Hours:</strong> 09:00 - 17:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="f fa-facebook"></i>
+                <i class="f fa-twitter"></i>
+                <i class="f fa-instagram"></i>
+                <i class="f fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="row">
+        <h1>Secured Payment Gateway</h1>
+        <img src="payment.jpeg" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>2024.josh.com.Ecommercewebsite</p>
+    </div>
+</footer>
+
+</body>
+</html>

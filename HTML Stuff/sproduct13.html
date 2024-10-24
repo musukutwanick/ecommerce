@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce-store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+  <link
+    href="/your-path-to-fontawesome/css/custom-icons.css"
+    rel="stylesheet"
+  />
+  <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet" />
+</head>
+<body>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="logo.png" alt="my logo" class="logo">
+                <ul>
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="cart.html">CART (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <section id="prodetails" class="section-p1" style="background-color: rgb(247, 240, 231);">
+            <div class="single-pro-image">
+                <img src="tenth.jpeg" width="100%" id="MainImg" alt="">
+            </div>
+    
+            <div class="single-pro-details">
+                <h4>iPad 10th Gen</h4>
+                <h2>$799.99</h2>
+                <select id="productColor1" class="single">
+                    <option>Select Color</option>
+                    <option>Grey</option>
+                    <option>Blue</option>
+                    <option>Silver</option>
+                    <option>Black</option>
+                </select>
+                <input type="number" id="productQuantity1" value="1" min="1">
+        
+                <button class="normal" onclick="addToCart('iPad 10th Gen', 799.99, 'productColor1', 'productQuantity1')">Add To Cart</button>
+                <h4>Product Details</h4>
+                <span>The iPad 10th Generation, released in October 2022, features a modern design and enhanced capabilities, making it a versatile tablet for various users.
+                    Key Features:
+                    Display: It boasts a 10.9-inch Liquid Retina display, providing vibrant colors and sharp visuals, ideal for media consumption, browsing, and creative tasks.
+                    Performance: Powered by the A14 Bionic chip, the iPad 10th Gen delivers impressive performance, allowing for smooth multitasking and efficient handling of demanding applications.
+                    Camera: The device is equipped with a 12MP front camera and a 12MP rear camera, enhancing video calls and photography capabilities. The front camera is positioned for landscape orientation, making it more suitable for video conferencing.
+                    Design: The iPad features an all-screen design and is available in several colors, making it visually appealing. It also includes Touch ID for secure authentication.
+                    Connectivity: With Wi-Fi 6 support, the iPad 10th Gen offers faster internet connectivity, which is beneficial for streaming and online activities.
+                    Battery Life: The device is designed for all-day battery life, ensuring that users can stay productive without frequent recharging.</span>
+            </div>
+            <script src="script.js" defer></script>
+        </section>
+    
+
+    <section id="feature" class="section-p1" style="background-color: #e2dcdc;">
+        <h2 class="featured-heading">Our Featured Products</h2>
+    
+        <div class="fe-box">
+            <img src="product1.1.jpeg" alt="iPhone 16 Pro Max" class="feature-image">
+            <h4>iPhone 16 Pro Max</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$1,199.99</p>
+        </div>
+        
+        <div class="fe-box">
+            <img src="product2.1.jpeg" alt="Mac Book Air" class="feature-image">
+            <h4>Mac Book Air</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$999.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="product3.jpeg" alt="iPad Pro" class="feature-image">
+            <h4>iPad Pro</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$799.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="watch.jpeg" alt="Apple Watch" class="feature-image">
+            <h4>Apple Watch</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$399.99</p>
+        </div>
+    
+    </section>
+
+    
+ <footer class="section-p1" style="background-color: whitesmoke;">
+    <div class="col">
+        <img class="logo" src="logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 40 Penrith Road, Morning-side, Bulawayo</p>
+        <p><strong>Phone:</strong> +263 2222 765 / +(26) 76 2349 0967</p>
+        <p><strong>Hours:</strong> 09:00 - 17:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="f fa-facebook"></i>
+                <i class="f fa-twitter"></i>
+                <i class="f fa-instagram"></i>
+                <i class="f fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="row">
+        <h1>Secured Payment Gateway</h1>
+        <img src="payment.jpeg" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>2024.josh.com.Ecommercewebsite</p>
+    </div>
+</footer>
+
+</body>
+</html>
