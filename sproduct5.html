@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce-store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+  <link
+    href="/your-path-to-fontawesome/css/custom-icons.css"
+    rel="stylesheet"
+  />
+  <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="logo.png" alt="my logo" class="logo">
+            <ul>
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="cart.html">CART (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="prodetails" class="section-p1" style="background-color: rgb(247, 240, 231);">
+      <div class="single-pro-image">
+        <img src="product4.jpg" width="100%" id="MainImg" alt="">
+      </div>
+
+      <div class="single-pro-details">
+        <h4>AirPods 4</h4>
+        <h2>$199.99</h2>
+        <select id="productColor1" class="single">
+            <option>Select Color</option>
+            <option>Grey</option>
+            <option>Blue</option>
+            <option>Silver</option>
+            <option>Black</option>
+        </select>
+        <input type="number" id="productQuantity1" value="1" min="1">
+    
+        <button class="normal" onclick="addToCart('AirPods 4', 199.99, 'productColor1', 'productQuantity1')">Add To Cart</button>
+        
+        <h4>Product Details</h4>
+        <span>The AirPods 4 are Apple's latest flagship wireless earbuds, designed to deliver an exceptional audio experience with a range of new features. They feature an updated design that ensures a more comfortable fit for all-day wear, making them ideal for extended listening sessions.
+            One of the standout features of the AirPods 4 is the introduction of Active Noise Cancellation, which enhances the listening experience by blocking out external noise. This is complemented by Spatial Audio capabilities, providing an immersive sound experience that makes music and media feel more engaging.
+            Powered by the advanced H2 chip, the AirPods 4 offer improved sound quality with dynamic drivers that deliver balanced audio across various frequencies. Users can enjoy up to 20 hours of listening time with Active Noise Cancellation enabled, and up to 30 hours when noise control is off, making them highly efficient for daily use.
+            With features like Adaptive EQ and force sensors, the AirPods 4 are designed to adapt to the user's environment and preferences, ensuring a personalized audio experience. Overall, the AirPods 4 represent a significant upgrade in both design and performance, making them a compelling choice for anyone seeking high-quality wireless earbuds.</span>
+      </div>
+      <script src="script.js" defer></script>
+    </section>
+
+
+    <section id="feature" class="section-p1" style="background-color: #e2dcdc;">
+        <h2 class="featured-heading">Our Featured Products</h2>
+    
+        <div class="fe-box">
+            <img src="product1.1.jpeg" alt="iPhone 16 Pro Max" class="feature-image">
+            <h4>iPhone 16 Pro Max</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$1,199.99</p>
+        </div>
+        
+        <div class="fe-box">
+            <img src="product2.1.jpeg" alt="Mac Book Air" class="feature-image">
+            <h4>Mac Book Air</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$999.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="product3.jpeg" alt="iPad Pro" class="feature-image">
+            <h4>iPad Pro</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$799.99</p>
+        </div>
+    
+        <div class="fe-box">
+            <img src="watch.jpeg" alt="Apple Watch" class="feature-image">
+            <h4>Apple Watch</h4>
+            <div class="rating">
+                ★★★★★
+            </div>
+            <p class="price">$399.99</p>
+        </div>
+    
+    </section>
+
+    
+ <footer class="section-p1" style="background-color: whitesmoke;">
+    <div class="col">
+        <img class="logo" src="logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 40 Penrith Road, Morning-side, Bulawayo</p>
+        <p><strong>Phone:</strong> +263 2222 765 / +(26) 76 2349 0967</p>
+        <p><strong>Hours:</strong> 09:00 - 17:00, Mon - Sat</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="f fa-facebook"></i>
+                <i class="f fa-twitter"></i>
+                <i class="f fa-instagram"></i>
+                <i class="f fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="row">
+        <h1>Secured Payment Gateway</h1>
+        <img src="payment.jpeg" alt="">
+    </div>
+
+    <div class="copyright">
+        <p>2024.josh.com.Ecommercewebsite</p>
+    </div>
+</footer>
+
+</body>
+</html>
